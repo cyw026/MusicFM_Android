@@ -3,9 +3,24 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimary">@color/light_youtube_primary_color</item>
+        <item name="colorPrimaryDark">@color/light_youtube_dark_color</item>
+        <item name="colorAccent">@color/light_youtube_accent_color</item>
+        <item name="android:windowBackground">@color/light_background_color</item>
+        <item name="share">@drawable/ic_share_black_24dp</item>
+        <item name="search">@drawable/ic_search_black_24dp</item>
+        <item name="close">@drawable/ic_close_black_24dp</item>
+        <item name="expand">@drawable/ic_expand_more_black_24dp</item>
+        <item name="collapse">@drawable/ic_expand_less_black_24dp</item>
+        <item name="volume_off">@drawable/ic_volume_off_black_24dp</item>
+        <item name="separatorColor">@color/light_separator_color</item>
+        <item name="colorControlHighlight">@color/light_ripple_color</item>
+
+    </style>
+
+    <style name="RedButton" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:textColor">@color/white</item>
+        <item name="colorButtonNormal">@color/light_youtube_primary_color</item>
     </style>
 
     <style name="AppTheme.NoActionBar">
